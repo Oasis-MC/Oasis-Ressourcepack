@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "money-pack:item/copper_coin"
+  }
+}
