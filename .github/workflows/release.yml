@@ -22,7 +22,7 @@ jobs:
       - name: Zip current directory
         id: prep
         run: |
-          ZIP_NAME=Oasis-Datapack-${{ steps.tag.outputs.tag }}.zip
+          ZIP_NAME=Oasis-Resourcepack-${{ steps.tag.outputs.tag }}.zip
           zip -r "$ZIP_NAME" . -x ".git/*" ".github/*" ".vscode/*" "README.md" "LICENSE*" "CHANGELOG.md"
           echo "asset=$ZIP_NAME" >> $GITHUB_OUTPUT
 
